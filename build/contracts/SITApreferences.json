@@ -59,21 +59,21 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":false,\"inputs\":[],\"name\":\"getPreferences\",\"outputs\":[{\"internalType\":\"uint256[4]\",\"name\":\"preferencesList\",\"type\":\"uint256[4]\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"spatial\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"identity\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"temporal\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"activity\",\"type\":\"uint256\"}],\"name\":\"setPreferences\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"success\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/SITApreferences.sol\":\"SITApreferences\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/SITApreferences.sol\":{\"keccak256\":\"0x543786bc072fea2c48eba8053ca46600dcb6ef33a3c6ae5a8dea7f0e3880b95a\",\"urls\":[\"bzz-raw://9747d8e0b06ba998ed3e464568be65415eabb93693a77de3056624c82cf19d52\",\"dweb:/ipfs/QmeNrH3CnZYSggD22hsU3eGn313qtrDpAH5Qg9cKZurUPL\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506102b6806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806307a666ba1461003b578063387f147e1461009f575b600080fd5b6100856004803603608081101561005157600080fd5b81019080803590602001909291908035906020019092919080359060200190929190803590602001909291905050506100e5565b604051808215151515815260200191505060405180910390f35b6100a761017d565b6040518082600460200280838360005b838110156100d25780820151818401526020810190506100b7565b5050505090500191505060405180910390f35b60006040518060800160405280868152602001848152602001858152602001838152506000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000820151816000015560208201518160010155604082015181600201556060820151816003015590505060019050949350505050565b610185610237565b61018d610259565b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060405180608001604052908160008201548152602001600182015481526020016002820154815260200160038201548152505090506040518060800160405280826000015181526020018260200151815260200182604001518152602001826060015181525091505090565b6040518060800160405280600490602082028038833980820191505090505090565b604051806080016040528060008152602001600081526020016000815260200160008152509056fea265627a7a72315820480f3143c9376eba7027f77b4b286d9021ca5e5c4218d55a4696342c0b414fbc64736f6c63430005100032",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c806307a666ba1461003b578063387f147e1461009f575b600080fd5b6100856004803603608081101561005157600080fd5b81019080803590602001909291908035906020019092919080359060200190929190803590602001909291905050506100e5565b604051808215151515815260200191505060405180910390f35b6100a761017d565b6040518082600460200280838360005b838110156100d25780820151818401526020810190506100b7565b5050505090500191505060405180910390f35b60006040518060800160405280868152602001848152602001858152602001838152506000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000820151816000015560208201518160010155604082015181600201556060820151816003015590505060019050949350505050565b610185610237565b61018d610259565b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060405180608001604052908160008201548152602001600182015481526020016002820154815260200160038201548152505090506040518060800160405280826000015181526020018260200151815260200182604001518152602001826060015181525091505090565b6040518060800160405280600490602082028038833980820191505090505090565b604051806080016040528060008152602001600081526020016000815260200160008152509056fea265627a7a72315820480f3143c9376eba7027f77b4b286d9021ca5e5c4218d55a4696342c0b414fbc64736f6c63430005100032",
-  "sourceMap": "37:1127:1:-;;;398:22;8:9:-1;5:2;;;30:1;27;20:12;5:2;398:22:1;37:1127;;;;;;",
-  "deployedSourceMap": "37:1127:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;37:1127:1;;;;;;;;;;;;;;;;;;;;;;;;428:292;;;;;;13:3:-1;8;5:12;2:2;;;30:1;27;20:12;2:2;428:292:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;725:434;;;:::i;:::-;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;725:434:1;;;;;;;;;;;;;;;;428:292;526:12;644:47;;;;;;;;656:7;644:47;;;;664:8;644:47;;;;673:8;644:47;;;;682:8;644:47;;;614:15;:27;630:10;614:27;;;;;;;;;;;;;;;:77;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;707:4;700:12;;428:292;;;;;;:::o;725:434::-;766:30;;:::i;:::-;971:35;;:::i;:::-;1009:15;:27;1025:10;1009:27;;;;;;;;;;;;;;;971:65;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1042:112;;;;;;;;1050:16;:24;;;1042:112;;;;1075:16;:25;;;1042:112;;;;1101:16;:25;;;1042:112;;;;1127:16;:25;;;1042:112;;;;;;725:434;:::o;37:1127::-;;;;;;;;;;;29:2:-1;21:6;17:15;117:4;105:10;97:6;88:34;148:4;140:6;136:17;126:27;;0:157;37:1127:1;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity >=0.4.22 <0.8.0;\r\n \r\ncontract SITApreferences{\r\n   // Model a preferences set\r\n    struct Preferences { // Might be easier to store preferences as a list or a different structure, particularly when we want to encrypt\r\n        uint spatial;\r\n        uint identity;\r\n        uint temporal;\r\n        uint activity;\r\n    }\r\n\r\n    mapping(address => Preferences) userpreferences;\r\n\r\n    constructor() public{}\r\n\r\n    function setPreferences(uint spatial, uint identity, uint temporal, uint activity) public returns(bool success){\r\n      // Require statement here to ensure all dimensions are 0-4\r\n      userpreferences[msg.sender] = Preferences(spatial,temporal,identity,activity);\r\n      return(true);\r\n    }\r\n\r\n function getPreferences() public returns(uint[4] memory preferencesList){\r\n   // Can't just return a struct unless using an experimental method (may be changed in future), will need to just return the 4 variables then re-create struct later?\r\n   Preferences memory userspreferences = userpreferences[msg.sender];\r\n   return([userspreferences.spatial,userspreferences.identity,userspreferences.temporal,userspreferences.activity]);\r\n }\r\n\r\n}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":false,\"inputs\":[],\"name\":\"getPreferences\",\"outputs\":[{\"internalType\":\"uint256[4]\",\"name\":\"preferencesList\",\"type\":\"uint256[4]\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"spatial\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"identity\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"temporal\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"activity\",\"type\":\"uint256\"}],\"name\":\"setPreferences\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"success\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/SITApreferences.sol\":\"SITApreferences\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/SITApreferences.sol\":{\"keccak256\":\"0x340ae2a5734f1c5624396de7a649b7f40e4f179043c110e51866c8bcbcdc94d1\",\"urls\":[\"bzz-raw://08deac6abcbdfca861c58edd9e78deba3ffcdd80961ea045b8751e6c979cf34c\",\"dweb:/ipfs/QmRmokvbET5XRyM4DMPS1c4ZFJr5dyF1kebsCyjfGj5qr7\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506102a4806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806307a666ba1461003b578063387f147e1461009f575b600080fd5b6100856004803603608081101561005157600080fd5b81019080803590602001909291908035906020019092919080359060200190929190803590602001909291905050506100e5565b604051808215151515815260200191505060405180910390f35b6100a7610161565b6040518082600460200280838360005b838110156100d25780820151818401526020810190506100b7565b5050505090500191505060405180910390f35b60006040518060800160405280868152602001858152602001848152602001838152506000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209060046101549291906101e8565b5060019050949350505050565b610169610228565b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206004806020026040519081016040528092919082600480156101de576020028201915b8154815260200190600101908083116101ca575b5050505050905090565b8260048101928215610217579160200282015b828111156102165782518255916020019190600101906101fb565b5b509050610224919061024a565b5090565b6040518060800160405280600490602082028038833980820191505090505090565b61026c91905b80821115610268576000816000905550600101610250565b5090565b9056fea265627a7a723158202cda266cd77e132f1217c11ab1a6a045cdd0c221b0e0d9eba9fb5f4baf90bb8a64736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c806307a666ba1461003b578063387f147e1461009f575b600080fd5b6100856004803603608081101561005157600080fd5b81019080803590602001909291908035906020019092919080359060200190929190803590602001909291905050506100e5565b604051808215151515815260200191505060405180910390f35b6100a7610161565b6040518082600460200280838360005b838110156100d25780820151818401526020810190506100b7565b5050505090500191505060405180910390f35b60006040518060800160405280868152602001858152602001848152602001838152506000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209060046101549291906101e8565b5060019050949350505050565b610169610228565b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206004806020026040519081016040528092919082600480156101de576020028201915b8154815260200190600101908083116101ca575b5050505050905090565b8260048101928215610217579160200282015b828111156102165782518255916020019190600101906101fb565b5b509050610224919061024a565b5090565b6040518060800160405280600490602082028038833980820191505090505090565b61026c91905b80821115610268576000816000905550600101610250565b5090565b9056fea265627a7a723158202cda266cd77e132f1217c11ab1a6a045cdd0c221b0e0d9eba9fb5f4baf90bb8a64736f6c63430005100032",
+  "sourceMap": "37:891:1:-;;;408:22;8:9:-1;5:2;;;30:1;27;20:12;5:2;408:22:1;37:891;;;;;;",
+  "deployedSourceMap": "37:891:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;37:891:1;;;;;;;;;;;;;;;;;;;;;;;;438:351;;;;;;13:3:-1;8;5:12;2:2;;;30:1;27;20:12;2:2;438:351:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;797:126;;;:::i;:::-;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;797:126:1;;;;;;;;;;;;;;;;438:351;536:12;624:66;;;;;;;;655:7;624:66;;;;663:8;624:66;;;;672:8;624:66;;;;681:8;624:66;;;:15;:27;640:10;624:27;;;;;;;;;;;;;;;:66;;;;;;;:::i;:::-;;706:4;699:12;;438:351;;;;;;:::o;797:126::-;838:30;;:::i;:::-;885:15;:27;901:10;885:27;;;;;;;;;;;;;;;878:35;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;797:126;:::o;37:891::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;29:2:-1;21:6;17:15;117:4;105:10;97:6;88:34;148:4;140:6;136:17;126:27;;0:157;37:891:1;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity >=0.4.22 <0.8.0;\r\n \r\ncontract SITApreferences{\r\n   // Model a preferences set\r\n    //struct Preferences { // Might be easier to store preferences as a list or a different structure, particularly when we want to encrypt\r\n        //uint spatial;\r\n        //uint identity;\r\n        //uint temporal;\r\n        //uint activity;\r\n    //}\r\n\r\n\r\n    mapping(address => uint[4]) userpreferences;\r\n\r\n    constructor() public{}\r\n\r\n    function setPreferences(uint spatial, uint identity, uint temporal, uint activity) public returns(bool success){\r\n      // Require statement here to ensure all dimensions are 0-4\r\n      userpreferences[msg.sender] = [spatial,identity,temporal,activity];\r\n      return(true); // Need to return upon success of setting, but need require statement\r\n    }\r\n\r\n    function getPreferences() public returns(uint[4] memory preferencesList){\r\n      return(userpreferences[msg.sender]);\r\n\r\n    }\r\n\r\n}",
   "sourcePath": "C:\\Users\\joelg\\Desktop\\SITA tests\\contracts\\SITApreferences.sol",
   "ast": {
     "absolutePath": "project:/contracts/SITApreferences.sol",
     "exportedSymbols": {
       "SITApreferences": [
-        107
+        87
       ]
     },
-    "id": 108,
+    "id": 88,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -96,169 +96,79 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 107,
+        "id": 87,
         "linearizedBaseContracts": [
-          107
+          87
         ],
         "name": "SITApreferences",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "canonicalName": "SITApreferences.Preferences",
-            "id": 43,
-            "members": [
-              {
-                "constant": false,
-                "id": 36,
-                "name": "spatial",
-                "nodeType": "VariableDeclaration",
-                "scope": 43,
-                "src": "242:12:1",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 35,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "242:4:1",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 38,
-                "name": "identity",
-                "nodeType": "VariableDeclaration",
-                "scope": 43,
-                "src": "265:13:1",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 37,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "265:4:1",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 40,
-                "name": "temporal",
-                "nodeType": "VariableDeclaration",
-                "scope": 43,
-                "src": "289:13:1",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 39,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "289:4:1",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 42,
-                "name": "activity",
-                "nodeType": "VariableDeclaration",
-                "scope": 43,
-                "src": "313:13:1",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 41,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "313:4:1",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              }
-            ],
-            "name": "Preferences",
-            "nodeType": "StructDefinition",
-            "scope": 107,
-            "src": "99:235:1",
-            "visibility": "public"
-          },
-          {
             "constant": false,
-            "id": 47,
+            "id": 40,
             "name": "userpreferences",
             "nodeType": "VariableDeclaration",
-            "scope": 107,
-            "src": "342:47:1",
+            "scope": 87,
+            "src": "356:43:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Preferences_$43_storage_$",
-              "typeString": "mapping(address => struct SITApreferences.Preferences)"
+              "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_uint256_$4_storage_$",
+              "typeString": "mapping(address => uint256[4])"
             },
             "typeName": {
-              "id": 46,
+              "id": 39,
               "keyType": {
-                "id": 44,
+                "id": 35,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "350:7:1",
+                "src": "364:7:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "342:31:1",
+              "src": "356:27:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Preferences_$43_storage_$",
-                "typeString": "mapping(address => struct SITApreferences.Preferences)"
+                "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_uint256_$4_storage_$",
+                "typeString": "mapping(address => uint256[4])"
               },
               "valueType": {
-                "contractScope": null,
-                "id": 45,
-                "name": "Preferences",
-                "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 43,
-                "src": "361:11:1",
+                "baseType": {
+                  "id": 36,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "375:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "id": 38,
+                "length": {
+                  "argumentTypes": null,
+                  "hexValue": "34",
+                  "id": 37,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "380:1:1",
+                  "subdenomination": null,
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_4_by_1",
+                    "typeString": "int_const 4"
+                  },
+                  "value": "4"
+                },
+                "nodeType": "ArrayTypeName",
+                "src": "375:7:1",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Preferences_$43_storage_ptr",
-                  "typeString": "struct SITApreferences.Preferences"
+                  "typeIdentifier": "t_array$_t_uint256_$4_storage_ptr",
+                  "typeString": "uint256[4]"
                 }
               }
             },
@@ -267,46 +177,46 @@
           },
           {
             "body": {
-              "id": 50,
+              "id": 43,
               "nodeType": "Block",
-              "src": "418:2:1",
+              "src": "428:2:1",
               "statements": []
             },
             "documentation": null,
-            "id": 51,
+            "id": 44,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 48,
+              "id": 41,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "409:2:1"
+              "src": "419:2:1"
             },
             "returnParameters": {
-              "id": 49,
+              "id": 42,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "418:0:1"
+              "src": "428:0:1"
             },
-            "scope": 107,
-            "src": "398:22:1",
+            "scope": 87,
+            "src": "408:22:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 79,
+              "id": 71,
               "nodeType": "Block",
-              "src": "539:181:1",
+              "src": "549:240:1",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 74,
+                    "id": 66,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -315,34 +225,34 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 64,
+                        "id": 57,
                         "name": "userpreferences",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 47,
-                        "src": "614:15:1",
+                        "referencedDeclaration": 40,
+                        "src": "624:15:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Preferences_$43_storage_$",
-                          "typeString": "mapping(address => struct SITApreferences.Preferences storage ref)"
+                          "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_uint256_$4_storage_$",
+                          "typeString": "mapping(address => uint256[4] storage ref)"
                         }
                       },
-                      "id": 67,
+                      "id": 60,
                       "indexExpression": {
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 65,
+                          "id": 58,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 122,
-                          "src": "630:3:1",
+                          "referencedDeclaration": 102,
+                          "src": "640:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 66,
+                        "id": 59,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -350,7 +260,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "630:10:1",
+                        "src": "640:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -361,25 +271,25 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "614:27:1",
+                      "src": "624:27:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Preferences_$43_storage",
-                        "typeString": "struct SITApreferences.Preferences storage ref"
+                        "typeIdentifier": "t_array$_t_uint256_$4_storage",
+                        "typeString": "uint256[4] storage ref"
                       }
                     },
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "arguments": [
+                      "components": [
                         {
                           "argumentTypes": null,
-                          "id": 69,
+                          "id": 61,
                           "name": "spatial",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 53,
-                          "src": "656:7:1",
+                          "referencedDeclaration": 46,
+                          "src": "655:7:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -387,25 +297,12 @@
                         },
                         {
                           "argumentTypes": null,
-                          "id": 70,
-                          "name": "temporal",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 57,
-                          "src": "664:8:1",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_uint256",
-                            "typeString": "uint256"
-                          }
-                        },
-                        {
-                          "argumentTypes": null,
-                          "id": 71,
+                          "id": 62,
                           "name": "identity",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 55,
-                          "src": "673:8:1",
+                          "referencedDeclaration": 48,
+                          "src": "663:8:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -413,71 +310,53 @@
                         },
                         {
                           "argumentTypes": null,
-                          "id": 72,
+                          "id": 63,
+                          "name": "temporal",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 50,
+                          "src": "672:8:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "id": 64,
                           "name": "activity",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 59,
-                          "src": "682:8:1",
+                          "referencedDeclaration": 52,
+                          "src": "681:8:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         }
                       ],
-                      "expression": {
-                        "argumentTypes": [
-                          {
-                            "typeIdentifier": "t_uint256",
-                            "typeString": "uint256"
-                          },
-                          {
-                            "typeIdentifier": "t_uint256",
-                            "typeString": "uint256"
-                          },
-                          {
-                            "typeIdentifier": "t_uint256",
-                            "typeString": "uint256"
-                          },
-                          {
-                            "typeIdentifier": "t_uint256",
-                            "typeString": "uint256"
-                          }
-                        ],
-                        "id": 68,
-                        "name": "Preferences",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 43,
-                        "src": "644:11:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_struct$_Preferences_$43_storage_ptr_$",
-                          "typeString": "type(struct SITApreferences.Preferences storage pointer)"
-                        }
-                      },
-                      "id": 73,
+                      "id": 65,
                       "isConstant": false,
+                      "isInlineArray": true,
                       "isLValue": false,
                       "isPure": false,
-                      "kind": "structConstructorCall",
                       "lValueRequested": false,
-                      "names": [],
-                      "nodeType": "FunctionCall",
-                      "src": "644:47:1",
+                      "nodeType": "TupleExpression",
+                      "src": "654:36:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Preferences_$43_memory",
-                        "typeString": "struct SITApreferences.Preferences memory"
+                        "typeIdentifier": "t_array$_t_uint256_$4_memory_ptr",
+                        "typeString": "uint256[4] memory"
                       }
                     },
-                    "src": "614:77:1",
+                    "src": "624:66:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Preferences_$43_storage",
-                      "typeString": "struct SITApreferences.Preferences storage ref"
+                      "typeIdentifier": "t_array$_t_uint256_$4_storage",
+                      "typeString": "uint256[4] storage ref"
                     }
                   },
-                  "id": 75,
+                  "id": 67,
                   "nodeType": "ExpressionStatement",
-                  "src": "614:77:1"
+                  "src": "624:66:1"
                 },
                 {
                   "expression": {
@@ -486,14 +365,14 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "74727565",
-                        "id": 76,
+                        "id": 68,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "bool",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "707:4:1",
+                        "src": "706:4:1",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -502,44 +381,44 @@
                         "value": "true"
                       }
                     ],
-                    "id": 77,
+                    "id": 69,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
                     "isPure": true,
                     "lValueRequested": false,
                     "nodeType": "TupleExpression",
-                    "src": "706:6:1",
+                    "src": "705:6:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 63,
-                  "id": 78,
+                  "functionReturnParameters": 56,
+                  "id": 70,
                   "nodeType": "Return",
-                  "src": "700:12:1"
+                  "src": "699:12:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 80,
+            "id": 72,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "setPreferences",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 60,
+              "id": 53,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 53,
+                  "id": 46,
                   "name": "spatial",
                   "nodeType": "VariableDeclaration",
-                  "scope": 80,
-                  "src": "452:12:1",
+                  "scope": 72,
+                  "src": "462:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -547,10 +426,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 52,
+                    "id": 45,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "452:4:1",
+                    "src": "462:4:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -561,11 +440,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 55,
+                  "id": 48,
                   "name": "identity",
                   "nodeType": "VariableDeclaration",
-                  "scope": 80,
-                  "src": "466:13:1",
+                  "scope": 72,
+                  "src": "476:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -573,10 +452,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 54,
+                    "id": 47,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "466:4:1",
+                    "src": "476:4:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -587,11 +466,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 57,
+                  "id": 50,
                   "name": "temporal",
                   "nodeType": "VariableDeclaration",
-                  "scope": 80,
-                  "src": "481:13:1",
+                  "scope": 72,
+                  "src": "491:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -599,10 +478,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 56,
+                    "id": 49,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "481:4:1",
+                    "src": "491:4:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -613,11 +492,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 59,
+                  "id": 52,
                   "name": "activity",
                   "nodeType": "VariableDeclaration",
-                  "scope": 80,
-                  "src": "496:13:1",
+                  "scope": 72,
+                  "src": "506:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -625,10 +504,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 58,
+                    "id": 51,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "496:4:1",
+                    "src": "506:4:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -638,19 +517,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "451:59:1"
+              "src": "461:59:1"
             },
             "returnParameters": {
-              "id": 63,
+              "id": 56,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 62,
+                  "id": 55,
                   "name": "success",
                   "nodeType": "VariableDeclaration",
-                  "scope": 80,
-                  "src": "526:12:1",
+                  "scope": 72,
+                  "src": "536:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -658,10 +537,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 61,
+                    "id": 54,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "526:4:1",
+                    "src": "536:4:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -671,296 +550,125 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "525:14:1"
+              "src": "535:14:1"
             },
-            "scope": 107,
-            "src": "428:292:1",
+            "scope": 87,
+            "src": "438:351:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 105,
+              "id": 85,
               "nodeType": "Block",
-              "src": "797:362:1",
+              "src": "869:54:1",
               "statements": [
-                {
-                  "assignments": [
-                    88
-                  ],
-                  "declarations": [
-                    {
-                      "constant": false,
-                      "id": 88,
-                      "name": "userspreferences",
-                      "nodeType": "VariableDeclaration",
-                      "scope": 105,
-                      "src": "971:35:1",
-                      "stateVariable": false,
-                      "storageLocation": "memory",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Preferences_$43_memory_ptr",
-                        "typeString": "struct SITApreferences.Preferences"
-                      },
-                      "typeName": {
-                        "contractScope": null,
-                        "id": 87,
-                        "name": "Preferences",
-                        "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 43,
-                        "src": "971:11:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Preferences_$43_storage_ptr",
-                          "typeString": "struct SITApreferences.Preferences"
-                        }
-                      },
-                      "value": null,
-                      "visibility": "internal"
-                    }
-                  ],
-                  "id": 93,
-                  "initialValue": {
-                    "argumentTypes": null,
-                    "baseExpression": {
-                      "argumentTypes": null,
-                      "id": 89,
-                      "name": "userpreferences",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 47,
-                      "src": "1009:15:1",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Preferences_$43_storage_$",
-                        "typeString": "mapping(address => struct SITApreferences.Preferences storage ref)"
-                      }
-                    },
-                    "id": 92,
-                    "indexExpression": {
-                      "argumentTypes": null,
-                      "expression": {
-                        "argumentTypes": null,
-                        "id": 90,
-                        "name": "msg",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 122,
-                        "src": "1025:3:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_magic_message",
-                          "typeString": "msg"
-                        }
-                      },
-                      "id": 91,
-                      "isConstant": false,
-                      "isLValue": false,
-                      "isPure": false,
-                      "lValueRequested": false,
-                      "memberName": "sender",
-                      "nodeType": "MemberAccess",
-                      "referencedDeclaration": null,
-                      "src": "1025:10:1",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address_payable",
-                        "typeString": "address payable"
-                      }
-                    },
-                    "isConstant": false,
-                    "isLValue": true,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "nodeType": "IndexAccess",
-                    "src": "1009:27:1",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Preferences_$43_storage",
-                      "typeString": "struct SITApreferences.Preferences storage ref"
-                    }
-                  },
-                  "nodeType": "VariableDeclarationStatement",
-                  "src": "971:65:1"
-                },
                 {
                   "expression": {
                     "argumentTypes": null,
                     "components": [
                       {
                         "argumentTypes": null,
-                        "components": [
-                          {
-                            "argumentTypes": null,
-                            "expression": {
-                              "argumentTypes": null,
-                              "id": 94,
-                              "name": "userspreferences",
-                              "nodeType": "Identifier",
-                              "overloadedDeclarations": [],
-                              "referencedDeclaration": 88,
-                              "src": "1050:16:1",
-                              "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Preferences_$43_memory_ptr",
-                                "typeString": "struct SITApreferences.Preferences memory"
-                              }
-                            },
-                            "id": 95,
-                            "isConstant": false,
-                            "isLValue": true,
-                            "isPure": false,
-                            "lValueRequested": false,
-                            "memberName": "spatial",
-                            "nodeType": "MemberAccess",
-                            "referencedDeclaration": 36,
-                            "src": "1050:24:1",
-                            "typeDescriptions": {
-                              "typeIdentifier": "t_uint256",
-                              "typeString": "uint256"
-                            }
-                          },
-                          {
-                            "argumentTypes": null,
-                            "expression": {
-                              "argumentTypes": null,
-                              "id": 96,
-                              "name": "userspreferences",
-                              "nodeType": "Identifier",
-                              "overloadedDeclarations": [],
-                              "referencedDeclaration": 88,
-                              "src": "1075:16:1",
-                              "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Preferences_$43_memory_ptr",
-                                "typeString": "struct SITApreferences.Preferences memory"
-                              }
-                            },
-                            "id": 97,
-                            "isConstant": false,
-                            "isLValue": true,
-                            "isPure": false,
-                            "lValueRequested": false,
-                            "memberName": "identity",
-                            "nodeType": "MemberAccess",
-                            "referencedDeclaration": 38,
-                            "src": "1075:25:1",
-                            "typeDescriptions": {
-                              "typeIdentifier": "t_uint256",
-                              "typeString": "uint256"
-                            }
-                          },
-                          {
-                            "argumentTypes": null,
-                            "expression": {
-                              "argumentTypes": null,
-                              "id": 98,
-                              "name": "userspreferences",
-                              "nodeType": "Identifier",
-                              "overloadedDeclarations": [],
-                              "referencedDeclaration": 88,
-                              "src": "1101:16:1",
-                              "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Preferences_$43_memory_ptr",
-                                "typeString": "struct SITApreferences.Preferences memory"
-                              }
-                            },
-                            "id": 99,
-                            "isConstant": false,
-                            "isLValue": true,
-                            "isPure": false,
-                            "lValueRequested": false,
-                            "memberName": "temporal",
-                            "nodeType": "MemberAccess",
-                            "referencedDeclaration": 40,
-                            "src": "1101:25:1",
-                            "typeDescriptions": {
-                              "typeIdentifier": "t_uint256",
-                              "typeString": "uint256"
-                            }
-                          },
-                          {
-                            "argumentTypes": null,
-                            "expression": {
-                              "argumentTypes": null,
-                              "id": 100,
-                              "name": "userspreferences",
-                              "nodeType": "Identifier",
-                              "overloadedDeclarations": [],
-                              "referencedDeclaration": 88,
-                              "src": "1127:16:1",
-                              "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Preferences_$43_memory_ptr",
-                                "typeString": "struct SITApreferences.Preferences memory"
-                              }
-                            },
-                            "id": 101,
-                            "isConstant": false,
-                            "isLValue": true,
-                            "isPure": false,
-                            "lValueRequested": false,
-                            "memberName": "activity",
-                            "nodeType": "MemberAccess",
-                            "referencedDeclaration": 42,
-                            "src": "1127:25:1",
-                            "typeDescriptions": {
-                              "typeIdentifier": "t_uint256",
-                              "typeString": "uint256"
-                            }
+                        "baseExpression": {
+                          "argumentTypes": null,
+                          "id": 79,
+                          "name": "userpreferences",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 40,
+                          "src": "885:15:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_uint256_$4_storage_$",
+                            "typeString": "mapping(address => uint256[4] storage ref)"
                           }
-                        ],
-                        "id": 102,
+                        },
+                        "id": 82,
+                        "indexExpression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 80,
+                            "name": "msg",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 102,
+                            "src": "901:3:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_message",
+                              "typeString": "msg"
+                            }
+                          },
+                          "id": 81,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "sender",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "901:10:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address_payable",
+                            "typeString": "address payable"
+                          }
+                        },
                         "isConstant": false,
-                        "isInlineArray": true,
-                        "isLValue": false,
+                        "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
-                        "nodeType": "TupleExpression",
-                        "src": "1049:104:1",
+                        "nodeType": "IndexAccess",
+                        "src": "885:27:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_uint256_$4_memory_ptr",
-                          "typeString": "uint256[4] memory"
+                          "typeIdentifier": "t_array$_t_uint256_$4_storage",
+                          "typeString": "uint256[4] storage ref"
                         }
                       }
                     ],
-                    "id": 103,
+                    "id": 83,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "TupleExpression",
-                    "src": "1048:106:1",
+                    "src": "884:29:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_uint256_$4_memory_ptr",
-                      "typeString": "uint256[4] memory"
+                      "typeIdentifier": "t_array$_t_uint256_$4_storage",
+                      "typeString": "uint256[4] storage ref"
                     }
                   },
-                  "functionReturnParameters": 86,
-                  "id": 104,
+                  "functionReturnParameters": 78,
+                  "id": 84,
                   "nodeType": "Return",
-                  "src": "1042:112:1"
+                  "src": "878:35:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 106,
+            "id": 86,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getPreferences",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 81,
+              "id": 73,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "748:2:1"
+              "src": "820:2:1"
             },
             "returnParameters": {
-              "id": 86,
+              "id": 78,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 85,
+                  "id": 77,
                   "name": "preferencesList",
                   "nodeType": "VariableDeclaration",
-                  "scope": 106,
-                  "src": "766:30:1",
+                  "scope": 86,
+                  "src": "838:30:1",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -969,27 +677,27 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 82,
+                      "id": 74,
                       "name": "uint",
                       "nodeType": "ElementaryTypeName",
-                      "src": "766:4:1",
+                      "src": "838:4:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "id": 84,
+                    "id": 76,
                     "length": {
                       "argumentTypes": null,
                       "hexValue": "34",
-                      "id": 83,
+                      "id": 75,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "771:1:1",
+                      "src": "843:1:1",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_4_by_1",
@@ -998,7 +706,7 @@
                       "value": "4"
                     },
                     "nodeType": "ArrayTypeName",
-                    "src": "766:7:1",
+                    "src": "838:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_uint256_$4_storage_ptr",
                       "typeString": "uint256[4]"
@@ -1008,27 +716,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "765:32:1"
+              "src": "837:32:1"
             },
-            "scope": 107,
-            "src": "725:434:1",
+            "scope": 87,
+            "src": "797:126:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 108,
-        "src": "37:1127:1"
+        "scope": 88,
+        "src": "37:891:1"
       }
     ],
-    "src": "0:1164:1"
+    "src": "0:928:1"
   },
   "legacyAST": {
     "attributes": {
       "absolutePath": "project:/contracts/SITApreferences.sol",
       "exportedSymbols": {
         "SITApreferences": [
-          107
+          87
         ]
       }
     },
@@ -1061,144 +769,27 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            107
+            87
           ],
           "name": "SITApreferences",
-          "scope": 108
+          "scope": 88
         },
         "children": [
           {
             "attributes": {
-              "canonicalName": "SITApreferences.Preferences",
-              "name": "Preferences",
-              "scope": 107,
-              "visibility": "public"
-            },
-            "children": [
-              {
-                "attributes": {
-                  "constant": false,
-                  "name": "spatial",
-                  "scope": 43,
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "type": "uint256",
-                  "value": null,
-                  "visibility": "internal"
-                },
-                "children": [
-                  {
-                    "attributes": {
-                      "name": "uint",
-                      "type": "uint256"
-                    },
-                    "id": 35,
-                    "name": "ElementaryTypeName",
-                    "src": "242:4:1"
-                  }
-                ],
-                "id": 36,
-                "name": "VariableDeclaration",
-                "src": "242:12:1"
-              },
-              {
-                "attributes": {
-                  "constant": false,
-                  "name": "identity",
-                  "scope": 43,
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "type": "uint256",
-                  "value": null,
-                  "visibility": "internal"
-                },
-                "children": [
-                  {
-                    "attributes": {
-                      "name": "uint",
-                      "type": "uint256"
-                    },
-                    "id": 37,
-                    "name": "ElementaryTypeName",
-                    "src": "265:4:1"
-                  }
-                ],
-                "id": 38,
-                "name": "VariableDeclaration",
-                "src": "265:13:1"
-              },
-              {
-                "attributes": {
-                  "constant": false,
-                  "name": "temporal",
-                  "scope": 43,
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "type": "uint256",
-                  "value": null,
-                  "visibility": "internal"
-                },
-                "children": [
-                  {
-                    "attributes": {
-                      "name": "uint",
-                      "type": "uint256"
-                    },
-                    "id": 39,
-                    "name": "ElementaryTypeName",
-                    "src": "289:4:1"
-                  }
-                ],
-                "id": 40,
-                "name": "VariableDeclaration",
-                "src": "289:13:1"
-              },
-              {
-                "attributes": {
-                  "constant": false,
-                  "name": "activity",
-                  "scope": 43,
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "type": "uint256",
-                  "value": null,
-                  "visibility": "internal"
-                },
-                "children": [
-                  {
-                    "attributes": {
-                      "name": "uint",
-                      "type": "uint256"
-                    },
-                    "id": 41,
-                    "name": "ElementaryTypeName",
-                    "src": "313:4:1"
-                  }
-                ],
-                "id": 42,
-                "name": "VariableDeclaration",
-                "src": "313:13:1"
-              }
-            ],
-            "id": 43,
-            "name": "StructDefinition",
-            "src": "99:235:1"
-          },
-          {
-            "attributes": {
               "constant": false,
               "name": "userpreferences",
-              "scope": 107,
+              "scope": 87,
               "stateVariable": true,
               "storageLocation": "default",
-              "type": "mapping(address => struct SITApreferences.Preferences)",
+              "type": "mapping(address => uint256[4])",
               "value": null,
               "visibility": "internal"
             },
             "children": [
               {
                 "attributes": {
-                  "type": "mapping(address => struct SITApreferences.Preferences)"
+                  "type": "mapping(address => uint256[4])"
                 },
                 "children": [
                   {
@@ -1206,30 +797,55 @@
                       "name": "address",
                       "type": "address"
                     },
-                    "id": 44,
+                    "id": 35,
                     "name": "ElementaryTypeName",
-                    "src": "350:7:1"
+                    "src": "364:7:1"
                   },
                   {
                     "attributes": {
-                      "contractScope": null,
-                      "name": "Preferences",
-                      "referencedDeclaration": 43,
-                      "type": "struct SITApreferences.Preferences"
+                      "type": "uint256[4]"
                     },
-                    "id": 45,
-                    "name": "UserDefinedTypeName",
-                    "src": "361:11:1"
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint",
+                          "type": "uint256"
+                        },
+                        "id": 36,
+                        "name": "ElementaryTypeName",
+                        "src": "375:4:1"
+                      },
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "hexvalue": "34",
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "subdenomination": null,
+                          "token": "number",
+                          "type": "int_const 4",
+                          "value": "4"
+                        },
+                        "id": 37,
+                        "name": "Literal",
+                        "src": "380:1:1"
+                      }
+                    ],
+                    "id": 38,
+                    "name": "ArrayTypeName",
+                    "src": "375:7:1"
                   }
                 ],
-                "id": 46,
+                "id": 39,
                 "name": "Mapping",
-                "src": "342:31:1"
+                "src": "356:27:1"
               }
             ],
-            "id": 47,
+            "id": 40,
             "name": "VariableDeclaration",
-            "src": "342:47:1"
+            "src": "356:43:1"
           },
           {
             "attributes": {
@@ -1241,7 +857,7 @@
                 null
               ],
               "name": "",
-              "scope": 107,
+              "scope": 87,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -1254,9 +870,9 @@
                   ]
                 },
                 "children": [],
-                "id": 48,
+                "id": 41,
                 "name": "ParameterList",
-                "src": "409:2:1"
+                "src": "419:2:1"
               },
               {
                 "attributes": {
@@ -1265,9 +881,9 @@
                   ]
                 },
                 "children": [],
-                "id": 49,
+                "id": 42,
                 "name": "ParameterList",
-                "src": "418:0:1"
+                "src": "428:0:1"
               },
               {
                 "attributes": {
@@ -1276,14 +892,14 @@
                   ]
                 },
                 "children": [],
-                "id": 50,
+                "id": 43,
                 "name": "Block",
-                "src": "418:2:1"
+                "src": "428:2:1"
               }
             ],
-            "id": 51,
+            "id": 44,
             "name": "FunctionDefinition",
-            "src": "398:22:1"
+            "src": "408:22:1"
           },
           {
             "attributes": {
@@ -1295,7 +911,7 @@
                 null
               ],
               "name": "setPreferences",
-              "scope": 107,
+              "scope": 87,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -1307,7 +923,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "spatial",
-                      "scope": 80,
+                      "scope": 72,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -1320,20 +936,20 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 52,
+                        "id": 45,
                         "name": "ElementaryTypeName",
-                        "src": "452:4:1"
+                        "src": "462:4:1"
                       }
                     ],
-                    "id": 53,
+                    "id": 46,
                     "name": "VariableDeclaration",
-                    "src": "452:12:1"
+                    "src": "462:12:1"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "identity",
-                      "scope": 80,
+                      "scope": 72,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -1346,20 +962,20 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 54,
+                        "id": 47,
                         "name": "ElementaryTypeName",
-                        "src": "466:4:1"
+                        "src": "476:4:1"
                       }
                     ],
-                    "id": 55,
+                    "id": 48,
                     "name": "VariableDeclaration",
-                    "src": "466:13:1"
+                    "src": "476:13:1"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "temporal",
-                      "scope": 80,
+                      "scope": 72,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -1372,20 +988,20 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 56,
+                        "id": 49,
                         "name": "ElementaryTypeName",
-                        "src": "481:4:1"
+                        "src": "491:4:1"
                       }
                     ],
-                    "id": 57,
+                    "id": 50,
                     "name": "VariableDeclaration",
-                    "src": "481:13:1"
+                    "src": "491:13:1"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "activity",
-                      "scope": 80,
+                      "scope": 72,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -1398,19 +1014,19 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 58,
+                        "id": 51,
                         "name": "ElementaryTypeName",
-                        "src": "496:4:1"
+                        "src": "506:4:1"
                       }
                     ],
-                    "id": 59,
+                    "id": 52,
                     "name": "VariableDeclaration",
-                    "src": "496:13:1"
+                    "src": "506:13:1"
                   }
                 ],
-                "id": 60,
+                "id": 53,
                 "name": "ParameterList",
-                "src": "451:59:1"
+                "src": "461:59:1"
               },
               {
                 "children": [
@@ -1418,7 +1034,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "success",
-                      "scope": 80,
+                      "scope": 72,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bool",
@@ -1431,19 +1047,19 @@
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 61,
+                        "id": 54,
                         "name": "ElementaryTypeName",
-                        "src": "526:4:1"
+                        "src": "536:4:1"
                       }
                     ],
-                    "id": 62,
+                    "id": 55,
                     "name": "VariableDeclaration",
-                    "src": "526:12:1"
+                    "src": "536:12:1"
                   }
                 ],
-                "id": 63,
+                "id": 56,
                 "name": "ParameterList",
-                "src": "525:14:1"
+                "src": "535:14:1"
               },
               {
                 "children": [
@@ -1457,7 +1073,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "operator": "=",
-                          "type": "struct SITApreferences.Preferences storage ref"
+                          "type": "uint256[4] storage ref"
                         },
                         "children": [
                           {
@@ -1467,7 +1083,7 @@
                               "isLValue": true,
                               "isPure": false,
                               "lValueRequested": true,
-                              "type": "struct SITApreferences.Preferences storage ref"
+                              "type": "uint256[4] storage ref"
                             },
                             "children": [
                               {
@@ -1476,13 +1092,13 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 47,
-                                  "type": "mapping(address => struct SITApreferences.Preferences storage ref)",
+                                  "referencedDeclaration": 40,
+                                  "type": "mapping(address => uint256[4] storage ref)",
                                   "value": "userpreferences"
                                 },
-                                "id": 64,
+                                "id": 57,
                                 "name": "Identifier",
-                                "src": "614:15:1"
+                                "src": "624:15:1"
                               },
                               {
                                 "attributes": {
@@ -1502,83 +1118,48 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 122,
+                                      "referencedDeclaration": 102,
                                       "type": "msg",
                                       "value": "msg"
                                     },
-                                    "id": 65,
+                                    "id": 58,
                                     "name": "Identifier",
-                                    "src": "630:3:1"
+                                    "src": "640:3:1"
                                   }
                                 ],
-                                "id": 66,
+                                "id": 59,
                                 "name": "MemberAccess",
-                                "src": "630:10:1"
+                                "src": "640:10:1"
                               }
                             ],
-                            "id": 67,
+                            "id": 60,
                             "name": "IndexAccess",
-                            "src": "614:27:1"
+                            "src": "624:27:1"
                           },
                           {
                             "attributes": {
                               "argumentTypes": null,
                               "isConstant": false,
+                              "isInlineArray": true,
                               "isLValue": false,
                               "isPure": false,
-                              "isStructConstructorCall": true,
                               "lValueRequested": false,
-                              "names": [
-                                null
-                              ],
-                              "type": "struct SITApreferences.Preferences memory",
-                              "type_conversion": false
+                              "type": "uint256[4] memory"
                             },
                             "children": [
                               {
                                 "attributes": {
-                                  "argumentTypes": [
-                                    {
-                                      "typeIdentifier": "t_uint256",
-                                      "typeString": "uint256"
-                                    },
-                                    {
-                                      "typeIdentifier": "t_uint256",
-                                      "typeString": "uint256"
-                                    },
-                                    {
-                                      "typeIdentifier": "t_uint256",
-                                      "typeString": "uint256"
-                                    },
-                                    {
-                                      "typeIdentifier": "t_uint256",
-                                      "typeString": "uint256"
-                                    }
-                                  ],
-                                  "overloadedDeclarations": [
-                                    null
-                                  ],
-                                  "referencedDeclaration": 43,
-                                  "type": "type(struct SITApreferences.Preferences storage pointer)",
-                                  "value": "Preferences"
-                                },
-                                "id": 68,
-                                "name": "Identifier",
-                                "src": "644:11:1"
-                              },
-                              {
-                                "attributes": {
                                   "argumentTypes": null,
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 53,
+                                  "referencedDeclaration": 46,
                                   "type": "uint256",
                                   "value": "spatial"
                                 },
-                                "id": 69,
+                                "id": 61,
                                 "name": "Identifier",
-                                "src": "656:7:1"
+                                "src": "655:7:1"
                               },
                               {
                                 "attributes": {
@@ -1586,27 +1167,13 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 57,
-                                  "type": "uint256",
-                                  "value": "temporal"
-                                },
-                                "id": 70,
-                                "name": "Identifier",
-                                "src": "664:8:1"
-                              },
-                              {
-                                "attributes": {
-                                  "argumentTypes": null,
-                                  "overloadedDeclarations": [
-                                    null
-                                  ],
-                                  "referencedDeclaration": 55,
+                                  "referencedDeclaration": 48,
                                   "type": "uint256",
                                   "value": "identity"
                                 },
-                                "id": 71,
+                                "id": 62,
                                 "name": "Identifier",
-                                "src": "673:8:1"
+                                "src": "663:8:1"
                               },
                               {
                                 "attributes": {
@@ -1614,32 +1181,46 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 59,
+                                  "referencedDeclaration": 50,
+                                  "type": "uint256",
+                                  "value": "temporal"
+                                },
+                                "id": 63,
+                                "name": "Identifier",
+                                "src": "672:8:1"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 52,
                                   "type": "uint256",
                                   "value": "activity"
                                 },
-                                "id": 72,
+                                "id": 64,
                                 "name": "Identifier",
-                                "src": "682:8:1"
+                                "src": "681:8:1"
                               }
                             ],
-                            "id": 73,
-                            "name": "FunctionCall",
-                            "src": "644:47:1"
+                            "id": 65,
+                            "name": "TupleExpression",
+                            "src": "654:36:1"
                           }
                         ],
-                        "id": 74,
+                        "id": 66,
                         "name": "Assignment",
-                        "src": "614:77:1"
+                        "src": "624:66:1"
                       }
                     ],
-                    "id": 75,
+                    "id": 67,
                     "name": "ExpressionStatement",
-                    "src": "614:77:1"
+                    "src": "624:66:1"
                   },
                   {
                     "attributes": {
-                      "functionReturnParameters": 63
+                      "functionReturnParameters": 56
                     },
                     "children": [
                       {
@@ -1666,29 +1247,29 @@
                               "type": "bool",
                               "value": "true"
                             },
-                            "id": 76,
+                            "id": 68,
                             "name": "Literal",
-                            "src": "707:4:1"
+                            "src": "706:4:1"
                           }
                         ],
-                        "id": 77,
+                        "id": 69,
                         "name": "TupleExpression",
-                        "src": "706:6:1"
+                        "src": "705:6:1"
                       }
                     ],
-                    "id": 78,
+                    "id": 70,
                     "name": "Return",
-                    "src": "700:12:1"
+                    "src": "699:12:1"
                   }
                 ],
-                "id": 79,
+                "id": 71,
                 "name": "Block",
-                "src": "539:181:1"
+                "src": "549:240:1"
               }
             ],
-            "id": 80,
+            "id": 72,
             "name": "FunctionDefinition",
-            "src": "428:292:1"
+            "src": "438:351:1"
           },
           {
             "attributes": {
@@ -1700,7 +1281,7 @@
                 null
               ],
               "name": "getPreferences",
-              "scope": 107,
+              "scope": 87,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -1713,9 +1294,9 @@
                   ]
                 },
                 "children": [],
-                "id": 81,
+                "id": 73,
                 "name": "ParameterList",
-                "src": "748:2:1"
+                "src": "820:2:1"
               },
               {
                 "children": [
@@ -1723,7 +1304,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "preferencesList",
-                      "scope": 106,
+                      "scope": 86,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "uint256[4]",
@@ -1741,9 +1322,9 @@
                               "name": "uint",
                               "type": "uint256"
                             },
-                            "id": 82,
+                            "id": 74,
                             "name": "ElementaryTypeName",
-                            "src": "766:4:1"
+                            "src": "838:4:1"
                           },
                           {
                             "attributes": {
@@ -1758,130 +1339,30 @@
                               "type": "int_const 4",
                               "value": "4"
                             },
-                            "id": 83,
+                            "id": 75,
                             "name": "Literal",
-                            "src": "771:1:1"
+                            "src": "843:1:1"
                           }
                         ],
-                        "id": 84,
+                        "id": 76,
                         "name": "ArrayTypeName",
-                        "src": "766:7:1"
+                        "src": "838:7:1"
                       }
                     ],
-                    "id": 85,
+                    "id": 77,
                     "name": "VariableDeclaration",
-                    "src": "766:30:1"
+                    "src": "838:30:1"
                   }
                 ],
-                "id": 86,
+                "id": 78,
                 "name": "ParameterList",
-                "src": "765:32:1"
+                "src": "837:32:1"
               },
               {
                 "children": [
                   {
                     "attributes": {
-                      "assignments": [
-                        88
-                      ]
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "constant": false,
-                          "name": "userspreferences",
-                          "scope": 105,
-                          "stateVariable": false,
-                          "storageLocation": "memory",
-                          "type": "struct SITApreferences.Preferences",
-                          "value": null,
-                          "visibility": "internal"
-                        },
-                        "children": [
-                          {
-                            "attributes": {
-                              "contractScope": null,
-                              "name": "Preferences",
-                              "referencedDeclaration": 43,
-                              "type": "struct SITApreferences.Preferences"
-                            },
-                            "id": 87,
-                            "name": "UserDefinedTypeName",
-                            "src": "971:11:1"
-                          }
-                        ],
-                        "id": 88,
-                        "name": "VariableDeclaration",
-                        "src": "971:35:1"
-                      },
-                      {
-                        "attributes": {
-                          "argumentTypes": null,
-                          "isConstant": false,
-                          "isLValue": true,
-                          "isPure": false,
-                          "lValueRequested": false,
-                          "type": "struct SITApreferences.Preferences storage ref"
-                        },
-                        "children": [
-                          {
-                            "attributes": {
-                              "argumentTypes": null,
-                              "overloadedDeclarations": [
-                                null
-                              ],
-                              "referencedDeclaration": 47,
-                              "type": "mapping(address => struct SITApreferences.Preferences storage ref)",
-                              "value": "userpreferences"
-                            },
-                            "id": 89,
-                            "name": "Identifier",
-                            "src": "1009:15:1"
-                          },
-                          {
-                            "attributes": {
-                              "argumentTypes": null,
-                              "isConstant": false,
-                              "isLValue": false,
-                              "isPure": false,
-                              "lValueRequested": false,
-                              "member_name": "sender",
-                              "referencedDeclaration": null,
-                              "type": "address payable"
-                            },
-                            "children": [
-                              {
-                                "attributes": {
-                                  "argumentTypes": null,
-                                  "overloadedDeclarations": [
-                                    null
-                                  ],
-                                  "referencedDeclaration": 122,
-                                  "type": "msg",
-                                  "value": "msg"
-                                },
-                                "id": 90,
-                                "name": "Identifier",
-                                "src": "1025:3:1"
-                              }
-                            ],
-                            "id": 91,
-                            "name": "MemberAccess",
-                            "src": "1025:10:1"
-                          }
-                        ],
-                        "id": 92,
-                        "name": "IndexAccess",
-                        "src": "1009:27:1"
-                      }
-                    ],
-                    "id": 93,
-                    "name": "VariableDeclarationStatement",
-                    "src": "971:65:1"
-                  },
-                  {
-                    "attributes": {
-                      "functionReturnParameters": 86
+                      "functionReturnParameters": 78
                     },
                     "children": [
                       {
@@ -1892,123 +1373,43 @@
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
-                          "type": "uint256[4] memory"
+                          "type": "uint256[4] storage ref"
                         },
                         "children": [
                           {
                             "attributes": {
                               "argumentTypes": null,
                               "isConstant": false,
-                              "isInlineArray": true,
-                              "isLValue": false,
+                              "isLValue": true,
                               "isPure": false,
                               "lValueRequested": false,
-                              "type": "uint256[4] memory"
+                              "type": "uint256[4] storage ref"
                             },
                             "children": [
                               {
                                 "attributes": {
                                   "argumentTypes": null,
-                                  "isConstant": false,
-                                  "isLValue": true,
-                                  "isPure": false,
-                                  "lValueRequested": false,
-                                  "member_name": "spatial",
-                                  "referencedDeclaration": 36,
-                                  "type": "uint256"
-                                },
-                                "children": [
-                                  {
-                                    "attributes": {
-                                      "argumentTypes": null,
-                                      "overloadedDeclarations": [
-                                        null
-                                      ],
-                                      "referencedDeclaration": 88,
-                                      "type": "struct SITApreferences.Preferences memory",
-                                      "value": "userspreferences"
-                                    },
-                                    "id": 94,
-                                    "name": "Identifier",
-                                    "src": "1050:16:1"
-                                  }
-                                ],
-                                "id": 95,
-                                "name": "MemberAccess",
-                                "src": "1050:24:1"
-                              },
-                              {
-                                "attributes": {
-                                  "argumentTypes": null,
-                                  "isConstant": false,
-                                  "isLValue": true,
-                                  "isPure": false,
-                                  "lValueRequested": false,
-                                  "member_name": "identity",
-                                  "referencedDeclaration": 38,
-                                  "type": "uint256"
-                                },
-                                "children": [
-                                  {
-                                    "attributes": {
-                                      "argumentTypes": null,
-                                      "overloadedDeclarations": [
-                                        null
-                                      ],
-                                      "referencedDeclaration": 88,
-                                      "type": "struct SITApreferences.Preferences memory",
-                                      "value": "userspreferences"
-                                    },
-                                    "id": 96,
-                                    "name": "Identifier",
-                                    "src": "1075:16:1"
-                                  }
-                                ],
-                                "id": 97,
-                                "name": "MemberAccess",
-                                "src": "1075:25:1"
-                              },
-                              {
-                                "attributes": {
-                                  "argumentTypes": null,
-                                  "isConstant": false,
-                                  "isLValue": true,
-                                  "isPure": false,
-                                  "lValueRequested": false,
-                                  "member_name": "temporal",
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
                                   "referencedDeclaration": 40,
-                                  "type": "uint256"
+                                  "type": "mapping(address => uint256[4] storage ref)",
+                                  "value": "userpreferences"
                                 },
-                                "children": [
-                                  {
-                                    "attributes": {
-                                      "argumentTypes": null,
-                                      "overloadedDeclarations": [
-                                        null
-                                      ],
-                                      "referencedDeclaration": 88,
-                                      "type": "struct SITApreferences.Preferences memory",
-                                      "value": "userspreferences"
-                                    },
-                                    "id": 98,
-                                    "name": "Identifier",
-                                    "src": "1101:16:1"
-                                  }
-                                ],
-                                "id": 99,
-                                "name": "MemberAccess",
-                                "src": "1101:25:1"
+                                "id": 79,
+                                "name": "Identifier",
+                                "src": "885:15:1"
                               },
                               {
                                 "attributes": {
                                   "argumentTypes": null,
                                   "isConstant": false,
-                                  "isLValue": true,
+                                  "isLValue": false,
                                   "isPure": false,
                                   "lValueRequested": false,
-                                  "member_name": "activity",
-                                  "referencedDeclaration": 42,
-                                  "type": "uint256"
+                                  "member_name": "sender",
+                                  "referencedDeclaration": null,
+                                  "type": "address payable"
                                 },
                                 "children": [
                                   {
@@ -2017,53 +1418,53 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 88,
-                                      "type": "struct SITApreferences.Preferences memory",
-                                      "value": "userspreferences"
+                                      "referencedDeclaration": 102,
+                                      "type": "msg",
+                                      "value": "msg"
                                     },
-                                    "id": 100,
+                                    "id": 80,
                                     "name": "Identifier",
-                                    "src": "1127:16:1"
+                                    "src": "901:3:1"
                                   }
                                 ],
-                                "id": 101,
+                                "id": 81,
                                 "name": "MemberAccess",
-                                "src": "1127:25:1"
+                                "src": "901:10:1"
                               }
                             ],
-                            "id": 102,
-                            "name": "TupleExpression",
-                            "src": "1049:104:1"
+                            "id": 82,
+                            "name": "IndexAccess",
+                            "src": "885:27:1"
                           }
                         ],
-                        "id": 103,
+                        "id": 83,
                         "name": "TupleExpression",
-                        "src": "1048:106:1"
+                        "src": "884:29:1"
                       }
                     ],
-                    "id": 104,
+                    "id": 84,
                     "name": "Return",
-                    "src": "1042:112:1"
+                    "src": "878:35:1"
                   }
                 ],
-                "id": 105,
+                "id": 85,
                 "name": "Block",
-                "src": "797:362:1"
+                "src": "869:54:1"
               }
             ],
-            "id": 106,
+            "id": 86,
             "name": "FunctionDefinition",
-            "src": "725:434:1"
+            "src": "797:126:1"
           }
         ],
-        "id": 107,
+        "id": 87,
         "name": "ContractDefinition",
-        "src": "37:1127:1"
+        "src": "37:891:1"
       }
     ],
-    "id": 108,
+    "id": 88,
     "name": "SourceUnit",
-    "src": "0:1164:1"
+    "src": "0:928:1"
   },
   "compiler": {
     "name": "solc",
@@ -2073,12 +1474,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xe1Ae766ADA6D212F144B40A3bad93Ccc2f49EE8B",
-      "transactionHash": "0x8d29ec843a4d900bbd6d77b23365f9304ba93d716e61bfe69f45dd1edc5ba7a8"
+      "address": "0x92Aa13BEfc8553ED3eEf7a6530DFE6e0ff2e1668",
+      "transactionHash": "0x29a1a1971cfeeadcecc93df62e0e619c3f5282b5c90ca1bc8918355c4196303e"
     }
   },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-03-07T16:24:39.670Z",
+  "updatedAt": "2022-03-07T16:51:42.316Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

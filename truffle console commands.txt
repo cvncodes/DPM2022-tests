@@ -4,4 +4,4 @@ web3.eth.getAccounts().then(function(acc){ accounts = acc })
 
 app.setPreferences(1,2,3,4, {from: accounts[2]})
 
-app.getPreferences({from: accounts[2]})
+results =  await app.getPreferences({from: accounts[2]}).call()
