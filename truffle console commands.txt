@@ -1,7 +1,13 @@
 SITApreferences.deployed().then(function(i){app=i;})
 
-web3.eth.getAccounts().then(function(acc){ accounts = acc })
+web3.eth.getAccounts().then(function(acc){ accounts = acc }) 
+// Get list of accounts
 
 app.setPreferences(1,2,3,4, {from: accounts[2]})
+// set preferences as [1,2,3,4] for account index 2
 
-results =  await app.getPreferences({from: accounts[2]}).call()
+results = await app.getPreferences.call({from: accounts[2]}) 
+// Outputs 4 value array of the user's preferences
+
+results[0].toNumber() 
+// See the value of index 0 (spatial)
