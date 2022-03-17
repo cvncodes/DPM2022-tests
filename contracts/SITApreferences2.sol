@@ -27,9 +27,9 @@ contract SITApreferences2{
       return(true); // Need to return upon success of setting, but need require statement
     }
 
-    function getPreferences(string memory key) public returns(uint[4] memory preferencesList){
+    function getPreferences(address userAddress,string memory key) public returns(uint[4] memory preferencesList){
       bytes memory keyBytes = abi.encodePacked(key); // Convert string parameter for the secret key to bytes
-      return(userpreferences[abi.encodePacked(msg.sender, keyBytes)]);
+      return(userpreferences[abi.encodePacked(userAddress, keyBytes)]);
 
     }
 
