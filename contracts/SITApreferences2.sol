@@ -29,7 +29,13 @@ contract SITApreferences2{
 
     function getPreferences(address userAddress,string memory key) public returns(uint[4] memory preferencesList){
       bytes memory keyBytes = abi.encodePacked(key); // Convert string parameter for the secret key to bytes
-      return(userpreferences[abi.encodePacked(userAddress, keyBytes)]);
+
+      if(keyInUse(userAddress, key)){
+        return(userpreferences[abi.encodePacked(userAddress, keyBytes)]);
+      }
+      else{
+        revert PreferencesNotFound(userAddress, key);
+      }
 
     }
 

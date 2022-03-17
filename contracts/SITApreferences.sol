@@ -12,7 +12,7 @@ contract SITApreferences{
 
     mapping(address => uint[4]) userpreferences;
 
-    constructor() public{}
+    constructor(){}
 
     function setPreferences(uint spatial, uint identity, uint temporal, uint activity) public returns(bool success){
       // Require statement here to ensure all dimensions are 0-4

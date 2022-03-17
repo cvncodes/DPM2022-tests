@@ -30,7 +30,7 @@ web3.eth.getAccounts().then(function(acc){ accounts = acc })
 app.setPreferences(1,2,3,4, "key", {from: accounts[2]})
 // set preferences as [1,2,3,4] for account index 2
 
-results = await app.getPreferences.call("key",{from: accounts[2]}) 
+results = await app.getPreferences.call(accounts[2],"key")
 // Outputs 4 value array of the user's preferences
 
 results[0].toNumber() 
