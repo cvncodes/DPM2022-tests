@@ -8,20 +8,12 @@ contract SITApreferences2{
 
     mapping(bytes => address[]) private approvedAddresses; // Mapping linking address + H(key) to approved addresses
 
-    constructor() public{}
+    constructor(){}
 
     function setPreferences(uint spatial, uint identity, uint temporal, uint activity, string memory key) public returns(bool success){
       // Require statement here to ensure all dimensions are 0-4
-      string[] memory usersKeys = usedKeys[msg.sender]; // Array of all the keys a user currently has
-      bool keyExists = false; // Boolean value for whether the key exists yet or not
 
-      for(uint i; i < usersKeys.length; i++){ // Iterate through the user's keys
-        if (keccak256(bytes(usersKeys[i])) == keccak256(bytes(key))){ // Compare the key in usedKeys array and the key the user has entered
-          keyExists = true; 
-        }
-      }
-
-      if (keyExists == false){ // If the key isn't already in use it needs to be added to the array in the usedKey mapping
+      if (keyInUse(msg.sender,key) == false){ // If the key isn't already in use it needs to be added to the array in the usedKey mapping
         usedKeys[msg.sender].push(key);
       }
 
@@ -34,6 +26,18 @@ contract SITApreferences2{
       bytes memory keyBytes = abi.encodePacked(key); // Convert string parameter for the secret key to bytes
       return(userpreferences[abi.encodePacked(msg.sender, keyBytes)]);
 
+    }
+
+    function keyInUse(address userAddress, string memory keyHash) private returns(bool keyExists){ // Helper function to check if a key already exists in keysUsed
+      keyExists = false; // Boolean value for whether the key exists yet or not
+
+      for(uint i; i < usedKeys[userAddress].length; i++){ // Iterate through the user's keys
+        if (keccak256(bytes(usedKeys[userAddress][i])) == keccak256(bytes(keyHash))){ // Compare the key in usedKeys array and the key the user has entered
+          keyExists = true; 
+        }
+      }
+
+      return(keyExists);
     }
 
 }
