@@ -1,5 +1,10 @@
 pragma solidity ^0.8.4;
  
+/// Preferences not found for this address + H(key) combination.
+/// @param userAddress Address used.
+/// @param hashKey Hashed key used.
+error PreferencesNotFound(address userAddress, string hashKey);
+ 
 contract SITApreferences2{
     mapping(bytes => uint[4]) private userpreferences; // Mapping bytes (address + key) as you cant use struct or array as mapping keys
     // Need to use bytes to be able to concatenate the address and key, should change later to a particular size bytes when we know address and key combined size
