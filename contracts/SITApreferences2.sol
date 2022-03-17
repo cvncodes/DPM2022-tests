@@ -1,4 +1,4 @@
-pragma solidity >=0.4.22 <0.8.0;
+pragma solidity ^0.8.4;
  
 contract SITApreferences2{
     mapping(bytes => uint[4]) private userpreferences; // Mapping bytes (address + key) as you cant use struct or array as mapping keys
