@@ -1,6 +1,6 @@
 truffle migrate --reset
 truffle console
-
+npm run dev
 
 
 
